@@ -70,3 +70,24 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+@keyframes fall {
+  0% {
+    transform: translateY(-150px) rotate(0deg);
+    opacity: 0;
+  }
+  70% {
+    transform: translateY(85vh) rotate(10deg);
+    opacity: 1;
+  }
+  90% {
+    transform: translateY(82vh) rotate(-5deg);
+  }
+  100% {
+    transform: translateY(85vh) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.animate-fall {
+  animation: fall 3s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
