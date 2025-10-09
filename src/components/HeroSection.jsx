@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { gsap } from "gsap";
-import MemeArc from "./MemeArc";
+import MemeArc from "./CircleGallery";
 
 export default function HeroSection() {
   useEffect(() => {
