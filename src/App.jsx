@@ -1,11 +1,15 @@
 import React from "react";
-import BouncyBalls from "./components/BouncyBalls"; // ✅ 경로 수정!
-import "./App.css";
+import InteractiveText from "./components/InteractiveText";
 
-export default function App() {
+function App() {
   return (
-    <div className="App">
-      <BouncyBalls />
-    </div>
+    <>
+      {/* 다른 섹션들 */}
+      {/* <WorkSection /> */}
+      {/* <HeroSection /> */}
+      <InteractiveText /> {/* ✨ 새 인터랙티브 섹션 */}
+    </>
   );
 }
+
+export default App;
